@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles dist/gifs-app/browser/* ./docs -f"
+    "copy:dist": "copyfiles -f dist/gifs-app/browser/* dist/gifs-app/browser/assets/* ./docs"
   },
   "private": true,
   "dependencies": {

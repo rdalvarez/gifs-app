@@ -1,8 +1,7 @@
 <div class="card mb-2 text-center bg-dark">
-
-
-  <shared-lazy-image [url]="gif.images.downsized_medium.url"
-  [alt]="gif.title || 'No name'"
+  <shared-lazy-image
+    [url]="gif.images.downsized_medium.url"
+    [alt]="gif.title || 'No name'"
   ></shared-lazy-image>
 
   <!-- <img
@@ -13,7 +12,7 @@
 
   <div class="card-body text-white">
     <p class="card-text">
-      {{ gif.title || 'No title'}}
+      {{ gif.title || "No title" }}
     </p>
   </div>
 </div>
