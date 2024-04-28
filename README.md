@@ -21,4 +21,4 @@
 - Animaciones mediante css
 
 ## Deploy
-[github-pages] (https://rdalvarez.github.io/gifs-app/)
+[github-pages](https://rdalvarez.github.io/gifs-app/)
