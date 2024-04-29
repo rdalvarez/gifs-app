@@ -16,7 +16,6 @@ export class GifsService {
   constructor(private http: HttpClient) {
     this.loadLocalSotrage();
     console.log('Gifs Service Ready');
-
   }
 
   public get tagsHistory(): string[] {
@@ -47,7 +46,7 @@ export class GifsService {
     this._tagsHistory = JSON.parse(localStorage.getItem('history')!) || [];
 
     if (this._tagsHistory.length === 0) return;
-    this.searchTag(this._tagsHistory[0])
+    this.searchTag(this._tagsHistory[0]);
   }
 
   /**
